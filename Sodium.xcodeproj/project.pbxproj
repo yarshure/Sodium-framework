@@ -129,11 +129,12 @@
 		36A8DD9C1D292B9A00B97D7E /* Sodium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A8DCAB1D28D70D00B97D7E /* Sodium.framework */; };
 		36A8DDAE1D29409800B97D7E /* Sodium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A8DD461D28DA5A00B97D7E /* Sodium.framework */; };
 		36A8DDB41D2940A300B97D7E /* SodiumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A8DD991D292B9A00B97D7E /* SodiumTests.swift */; };
+		69A33BAC2182F4C3002FCA75 /* crypto_pwhash_argon2id.h in Headers */ = {isa = PBXBuildFile; fileRef = 69F998122182C2C00093E75D /* crypto_pwhash_argon2id.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		69F9980B2182C2990093E75D /* crypto_stream_xchacha20.h in Headers */ = {isa = PBXBuildFile; fileRef = 69F9980A2182C2990093E75D /* crypto_stream_xchacha20.h */; };
 		69F9980D2182C2A80093E75D /* crypto_secretstream_xchacha20poly1305.h in Headers */ = {isa = PBXBuildFile; fileRef = 69F9980C2182C2A80093E75D /* crypto_secretstream_xchacha20poly1305.h */; };
 		69F9980F2182C2B00093E75D /* crypto_secretbox_xchacha20poly1305.h in Headers */ = {isa = PBXBuildFile; fileRef = 69F9980E2182C2AF0093E75D /* crypto_secretbox_xchacha20poly1305.h */; };
 		69F998112182C2B70093E75D /* crypto_scalarmult_ed25519.h in Headers */ = {isa = PBXBuildFile; fileRef = 69F998102182C2B70093E75D /* crypto_scalarmult_ed25519.h */; };
-		69F998132182C2C00093E75D /* crypto_pwhash_argon2id.h in Headers */ = {isa = PBXBuildFile; fileRef = 69F998122182C2C00093E75D /* crypto_pwhash_argon2id.h */; };
+		69F998132182C2C00093E75D /* crypto_pwhash_argon2id.h in Headers */ = {isa = PBXBuildFile; fileRef = 69F998122182C2C00093E75D /* crypto_pwhash_argon2id.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		69F998172182C2CB0093E75D /* crypto_kdf.h in Headers */ = {isa = PBXBuildFile; fileRef = 69F998142182C2CB0093E75D /* crypto_kdf.h */; };
 		69F998182182C2CB0093E75D /* crypto_kx.h in Headers */ = {isa = PBXBuildFile; fileRef = 69F998152182C2CB0093E75D /* crypto_kx.h */; };
 		69F998192182C2CB0093E75D /* crypto_kdf_blake2b.h in Headers */ = {isa = PBXBuildFile; fileRef = 69F998162182C2CB0093E75D /* crypto_kdf_blake2b.h */; };
@@ -506,6 +507,7 @@
 				36A8DD611D28DC4F00B97D7E /* crypto_box.h in Headers */,
 				36A8DD7F1D28DC4F00B97D7E /* crypto_stream_chacha20.h in Headers */,
 				36A8DD791D28DC4F00B97D7E /* crypto_shorthash_siphash24.h in Headers */,
+				69A33BAC2182F4C3002FCA75 /* crypto_pwhash_argon2id.h in Headers */,
 				36A8DD651D28DC4F00B97D7E /* crypto_core_salsa20.h in Headers */,
 				36A8DD561D28DC1B00B97D7E /* Sodium.h in Headers */,
 				36A8DD901D28DC4F00B97D7E /* sodium-lib.h in Headers */,
